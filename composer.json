@@ -19,5 +19,17 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "MzedevWorks\\LaravelLogEnhancer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MzedevWorks\\LaravelLogEnhancer\\LaravelLogEnhancerServiceProvider"
+            ]
+        }
+    }
 }
