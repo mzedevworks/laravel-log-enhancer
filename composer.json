@@ -1,0 +1,23 @@
+{
+    "name": "mzedevworks/laravel-log-enhencer",
+    "description": "Make debugging easier by adding more data to your laravel logs",
+    "type": "library",
+    "require": {
+        "php": "^7.3",
+        "illuminate/support": "^9.0@dev",
+        "monolog/monolog": "^1.23|^2.1.1"
+    },
+    "require-dev": {
+        "illuminate/support": "^9.0@dev",
+        "orchestra/testbench": "^7.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "'Musavengana Zirebwa",
+            "email": "musaz01@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
