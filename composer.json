@@ -25,6 +25,11 @@
             "MzedevWorks\\LaravelLogEnhancer\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "MzedevWorks\\LaravelLogEnhancer\\Test\\": "tests"
+        }
+     },
     "extra": {
         "laravel": {
             "providers": [
